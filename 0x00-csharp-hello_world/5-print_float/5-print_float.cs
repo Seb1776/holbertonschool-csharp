@@ -1,10 +1,12 @@
 ﻿using System;
 
-class Program
+namespace _5_print_float
 {
-	static void Main(string[] args)
+    class Program
     {
-		float number = 3.14159f;
-		Console.WriteLine("Float: {0} ", number.ToString("F2"));
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
     }
 }

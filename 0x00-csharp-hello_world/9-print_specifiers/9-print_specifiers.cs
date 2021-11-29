@@ -10,3 +10,4 @@ class Program
         Console.WriteLine("Currency: {0}", currency.ToString("C2"));
 	}
 }
+

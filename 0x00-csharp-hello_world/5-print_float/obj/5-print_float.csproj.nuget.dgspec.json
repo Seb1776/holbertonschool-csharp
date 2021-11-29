@@ -1,30 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/vagrant/holbertonschool-csharp/0x00-csharp-hello_world/5-print_float/5-print_float.csproj": {}
+    "C:\\Users\\Sebastian\\Documents\\holbertonschool-csharp-master\\holbertonschool-csharp\\0x00-csharp-hello_world\\5-print_float\\5-print_float.csproj": {}
   },
   "projects": {
-    "/home/vagrant/holbertonschool-csharp/0x00-csharp-hello_world/5-print_float/5-print_float.csproj": {
+    "C:\\Users\\Sebastian\\Documents\\holbertonschool-csharp-master\\holbertonschool-csharp\\0x00-csharp-hello_world\\5-print_float\\5-print_float.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vagrant/holbertonschool-csharp/0x00-csharp-hello_world/5-print_float/5-print_float.csproj",
+        "projectUniqueName": "C:\\Users\\Sebastian\\Documents\\holbertonschool-csharp-master\\holbertonschool-csharp\\0x00-csharp-hello_world\\5-print_float\\5-print_float.csproj",
         "projectName": "5-print_float",
-        "projectPath": "/home/vagrant/holbertonschool-csharp/0x00-csharp-hello_world/5-print_float/5-print_float.csproj",
-        "packagesPath": "/home/vagrant/.nuget/packages/",
-        "outputPath": "/home/vagrant/holbertonschool-csharp/0x00-csharp-hello_world/5-print_float/obj/",
+        "projectPath": "C:\\Users\\Sebastian\\Documents\\holbertonschool-csharp-master\\holbertonschool-csharp\\0x00-csharp-hello_world\\5-print_float\\5-print_float.csproj",
+        "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sebastian\\Documents\\holbertonschool-csharp-master\\holbertonschool-csharp\\0x00-csharp-hello_world\\5-print_float\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/vagrant/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "netcoreapp2.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "netcoreapp2.1": {
             "projectReferences": {}
           }
         },
@@ -35,24 +37,19 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
+        "netcoreapp2.1": {
+          "dependencies": {
             "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
         }
       }
     }
