@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sebastian\\Documents\\holbertonschool-csharp-master\\holbertonschool-csharp\\0x00-csharp-hello_world\\8-print_variable\\8-print_variable.csproj",
-      "projectName": "8-print_variable",
-      "projectPath": "C:\\Users\\Sebastian\\Documents\\holbertonschool-csharp-master\\holbertonschool-csharp\\0x00-csharp-hello_world\\8-print_variable\\8-print_variable.csproj",
+      "projectUniqueName": "C:\\Users\\Sebastian\\Documents\\holbertonschool-csharp-master\\holbertonschool-csharp\\0x00-csharp-hello_world\\8-print_variables\\8-print_variables.csproj",
+      "projectName": "8-print_variables",
+      "projectPath": "C:\\Users\\Sebastian\\Documents\\holbertonschool-csharp-master\\holbertonschool-csharp\\0x00-csharp-hello_world\\8-print_variables\\8-print_variables.csproj",
       "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sebastian\\Documents\\holbertonschool-csharp-master\\holbertonschool-csharp\\0x00-csharp-hello_world\\8-print_variable\\obj\\",
+      "outputPath": "C:\\Users\\Sebastian\\Documents\\holbertonschool-csharp-master\\holbertonschool-csharp\\0x00-csharp-hello_world\\8-print_variables\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
