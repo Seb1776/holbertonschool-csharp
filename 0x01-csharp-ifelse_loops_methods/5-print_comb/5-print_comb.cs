@@ -9,7 +9,7 @@ namespace _5_print_comb
             for (int i = 0; i <= 98; i++)
                 Console.Write("{0}, ", i.ToString("00"));
             
-            Console.Write("99");
+            Console.WriteLine("99");
         }
     }
 }
