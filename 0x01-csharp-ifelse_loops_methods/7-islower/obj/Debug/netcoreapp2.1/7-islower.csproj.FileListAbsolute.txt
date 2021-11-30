@@ -1,0 +1,11 @@
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\obj\Debug\netcoreapp2.1\7-islower.csprojAssemblyReference.cache
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\obj\Debug\netcoreapp2.1\7-islower.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\obj\Debug\netcoreapp2.1\7-islower.AssemblyInfoInputs.cache
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\obj\Debug\netcoreapp2.1\7-islower.AssemblyInfo.cs
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\bin\Debug\netcoreapp2.1\7-islower.deps.json
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\bin\Debug\netcoreapp2.1\7-islower.runtimeconfig.json
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\bin\Debug\netcoreapp2.1\7-islower.runtimeconfig.dev.json
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\bin\Debug\netcoreapp2.1\7-islower.dll
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\bin\Debug\netcoreapp2.1\7-islower.pdb
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\obj\Debug\netcoreapp2.1\7-islower.dll
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\obj\Debug\netcoreapp2.1\7-islower.pdb
