@@ -1,0 +1,11 @@
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\9-add\bin\Debug\netcoreapp2.1\9-add.deps.json
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\9-add\bin\Debug\netcoreapp2.1\9-add.runtimeconfig.json
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\9-add\bin\Debug\netcoreapp2.1\9-add.runtimeconfig.dev.json
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\9-add\bin\Debug\netcoreapp2.1\9-add.dll
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\9-add\bin\Debug\netcoreapp2.1\9-add.pdb
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\9-add\obj\Debug\netcoreapp2.1\9-add.csprojAssemblyReference.cache
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\9-add\obj\Debug\netcoreapp2.1\9-add.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\9-add\obj\Debug\netcoreapp2.1\9-add.AssemblyInfoInputs.cache
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\9-add\obj\Debug\netcoreapp2.1\9-add.AssemblyInfo.cs
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\9-add\obj\Debug\netcoreapp2.1\9-add.dll
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\9-add\obj\Debug\netcoreapp2.1\9-add.pdb
