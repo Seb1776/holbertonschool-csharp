@@ -13,14 +13,20 @@ class Array
 
             else
             {
-                for (int i = 0; i < size - 1; i++)
-                {
-                    retArray[i] = i;
-                    Console.Write("{0} ", i);
+                for (int i = 0; i < size; i++)
+                {   
+                    if (i != size - 1)
+                    {
+                        retArray[i] = i;
+                        Console.Write("{0} ", i);
+                    }
+
+                    else if (i == size - 1)
+                    {
+                        retArray[size - 1] = size - 1;
+                        Console.WriteLine("{0}", retArray[size - 1]);
+                    }
                 }
-                
-                retArray[size - 1] = size - 1;
-                Console.WriteLine("{0}", retArray[size - 1]);
             }
 
             return retArray;
