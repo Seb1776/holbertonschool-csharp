@@ -1,17 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 class Dictionary
 {
     public static string BestScore(Dictionary<string, int> myList)
     {
-        List<string> highs = myList.Keys.ToList();
+        List<int> scores = new List<int>();
+        List<string> names = new List<string>();
 
-        if (highs.Count > 0)
+        scores.AddRange(myList.Values);
+        names.AddRange(myList.Keys);
+        
+        if (scores.Count > 0)
         {
-            highs.Sort();
-            return highs[highs.Count - 1];
+            int tmpHigh = scores[0];
+            int nameIdx = 0;
+
+            for (int i = 0; i < scores.Count; i++)
+            {
+                if (scores[i] >  tmpHigh)
+                {
+                    tmpHigh = scores[i];
+                    nameIdx = i;
+                }
+            }
+
+            return names[nameIdx];
         }
 
         return "None";
