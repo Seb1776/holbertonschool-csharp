@@ -1,0 +1,11 @@
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x02-csharp-arrays_lists_dictionaries\15-square_matrix\obj\Debug\netcoreapp2.1\15-square_matrix.csprojAssemblyReference.cache
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x02-csharp-arrays_lists_dictionaries\15-square_matrix\obj\Debug\netcoreapp2.1\15-square_matrix.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x02-csharp-arrays_lists_dictionaries\15-square_matrix\obj\Debug\netcoreapp2.1\15-square_matrix.AssemblyInfoInputs.cache
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x02-csharp-arrays_lists_dictionaries\15-square_matrix\obj\Debug\netcoreapp2.1\15-square_matrix.AssemblyInfo.cs
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x02-csharp-arrays_lists_dictionaries\15-square_matrix\bin\Debug\netcoreapp2.1\15-square_matrix.deps.json
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x02-csharp-arrays_lists_dictionaries\15-square_matrix\bin\Debug\netcoreapp2.1\15-square_matrix.runtimeconfig.json
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x02-csharp-arrays_lists_dictionaries\15-square_matrix\bin\Debug\netcoreapp2.1\15-square_matrix.runtimeconfig.dev.json
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x02-csharp-arrays_lists_dictionaries\15-square_matrix\bin\Debug\netcoreapp2.1\15-square_matrix.dll
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x02-csharp-arrays_lists_dictionaries\15-square_matrix\bin\Debug\netcoreapp2.1\15-square_matrix.pdb
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x02-csharp-arrays_lists_dictionaries\15-square_matrix\obj\Debug\netcoreapp2.1\15-square_matrix.dll
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x02-csharp-arrays_lists_dictionaries\15-square_matrix\obj\Debug\netcoreapp2.1\15-square_matrix.pdb
