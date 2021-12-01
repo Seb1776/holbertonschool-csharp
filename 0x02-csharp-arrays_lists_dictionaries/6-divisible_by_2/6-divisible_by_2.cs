@@ -13,7 +13,7 @@ class List
 
             for (int i = 0; i < myList.Count; i++)
             {
-                if (divisors.Contains(myList[i] % 10))
+                if (divisors.Contains(Math.Abs(myList[i]) % 10))
                     retBool.Add(true);
 
                 else

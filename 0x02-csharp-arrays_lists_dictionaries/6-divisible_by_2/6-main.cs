@@ -5,7 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        List<int> myList = new List<int>() {1, 2, 3, 4, 5, 6};
+        List<int> myList = new List<int>() {1, 2, 3, 4, 5, 6, -2, -7};
         List<bool> result = new List<bool>();
         int i;
 
