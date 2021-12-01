@@ -17,7 +17,10 @@ namespace _14_rectangular_array
             for (int i = 0; i < multiArray.GetLength(0); i++)
             {
                 for (int j = 0; j < multiArray.GetLength(1); j++)
-                    Console.Write(string.Format("{0} ", multiArray[i, j]));
+                    if (j != multiArray.GetLength(1) - 2)
+                        Console.Write(string.Format("{0} ", multiArray[i, j]));
+                    else if (j == multiArray.GetLength(1) - 2)
+                        Console.Write(string.Format("{0} ", multiArray[i, j]));
 
                 Console.Write("\n");
             }
