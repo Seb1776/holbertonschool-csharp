@@ -1,0 +1,11 @@
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x03-csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\obj\Debug\netcoreapp2.1\8-linkedlist_find.csprojAssemblyReference.cache
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x03-csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\obj\Debug\netcoreapp2.1\8-linkedlist_find.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x03-csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\obj\Debug\netcoreapp2.1\8-linkedlist_find.AssemblyInfoInputs.cache
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x03-csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\obj\Debug\netcoreapp2.1\8-linkedlist_find.AssemblyInfo.cs
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x03-csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\bin\Debug\netcoreapp2.1\8-linkedlist_find.deps.json
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x03-csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\bin\Debug\netcoreapp2.1\8-linkedlist_find.runtimeconfig.json
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x03-csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\bin\Debug\netcoreapp2.1\8-linkedlist_find.runtimeconfig.dev.json
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x03-csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\bin\Debug\netcoreapp2.1\8-linkedlist_find.dll
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x03-csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\bin\Debug\netcoreapp2.1\8-linkedlist_find.pdb
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x03-csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\obj\Debug\netcoreapp2.1\8-linkedlist_find.dll
+C:\Users\Sebastian\Documents\holbertonschool-csharp-master\holbertonschool-csharp\0x03-csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\obj\Debug\netcoreapp2.1\8-linkedlist_find.pdb
