@@ -18,6 +18,6 @@ class LList
         }
         
         myLList.AddAfter(myLList.Find(insertAfterVal), n);
-        return myLList.Find(insertAfterVal);
+        return myLList.Find(n);
     }
 }
