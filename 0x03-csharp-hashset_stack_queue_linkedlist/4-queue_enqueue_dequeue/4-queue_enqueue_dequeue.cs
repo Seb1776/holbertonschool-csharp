@@ -13,8 +13,6 @@ class MyQueue
         else
             Console.WriteLine("Queue is empty");
         
-        aQueue.Enqueue(newItem);
-        
         Console.WriteLine("Queue contains \"{0}\": {1}", search, aQueue.Contains(search));
 
         if (aQueue.Contains(search))
@@ -36,6 +34,8 @@ class MyQueue
             for (int i = 0; i < numToDelete; i++)
                 aQueue.Dequeue();
         }
+
+        aQueue.Enqueue(newItem);
 
         return aQueue;
     }
