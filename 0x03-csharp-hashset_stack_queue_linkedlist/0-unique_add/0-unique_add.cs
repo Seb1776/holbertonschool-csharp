@@ -5,17 +5,11 @@ class List
 {
     public static int Sum(List<int> myList)
     {
+        var unique = new HashSet<int>(myList);
         int finalRet = 0;
-        List<int> tmp = new List<int>();
 
-        for (int i = 0; i < myList.Count; i++)
-        {
-            if (!tmp.Contains(myList[i]))
-            {
-                tmp.Add(myList[i]);
-                finalRet += myList[i];
-            }
-        }
+        foreach (int n in unique)
+            finalRet += n;
 
         return finalRet;
     }
