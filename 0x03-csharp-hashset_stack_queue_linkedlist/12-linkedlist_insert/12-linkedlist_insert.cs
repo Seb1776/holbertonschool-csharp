@@ -8,34 +8,43 @@ class LList
         List<int> tmp = new List<int>(myLList);
         int insertAfterVal = 0;
 
-        if (myLList.Last.Value < n)
+        if (myLList.Count > 0)
         {
-            myLList.AddAfter(myLList.Last, n);
-            return myLList.Find(n);
-        }
-
-        else if (n > 0)
-        {
-            for (int i = 0; i < tmp.Count; i++)
+            if (myLList.Last.Value < n)
             {
-                if (tmp[i] > n)
-                {   
-                    if (i != 0)
-                        insertAfterVal = tmp[i - 1];
-                    else
-                        insertAfterVal = tmp[0];
-                    
-                    break;
-                }
+                myLList.AddAfter(myLList.Last, n);
+                return myLList.Find(n);
             }
 
-            myLList.AddAfter(myLList.Find(insertAfterVal), n);
-            return myLList.Find(n);
+            else if (n > 0)
+            {
+                for (int i = 0; i < tmp.Count; i++)
+                {
+                    if (tmp[i] > n)
+                    {   
+                        if (i != 0)
+                            insertAfterVal = tmp[i - 1];
+                        else
+                            insertAfterVal = tmp[0];
+                        
+                        break;
+                    }
+                }
+
+                myLList.AddAfter(myLList.Find(insertAfterVal), n);
+                return myLList.Find(n);
+            }
+
+            else
+            {
+                myLList.AddBefore(myLList.First, n);
+                return myLList.Find(n);
+            }
         }
 
         else
         {
-            myLList.AddBefore(myLList.First, n);
+            myLList.AddFirst(n);
             return myLList.Find(n);
         }
     }
