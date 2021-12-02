@@ -33,12 +33,10 @@ class LList
             return myLList.Find(n);
         }
 
-        else if (n <= 0)
+        else
         {
             myLList.AddBefore(myLList.First, n);
             return myLList.Find(n);
         }
-
-        return null;
     }
 }

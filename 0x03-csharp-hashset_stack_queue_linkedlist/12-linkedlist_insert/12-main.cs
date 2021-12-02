@@ -25,7 +25,7 @@ class Program
         }
 
         Console.WriteLine("------------------");
-        LList.Insert(myLList, null);
+        LList.Insert(myLList, 10);
 
         current = myLList.First;
         while (current != null)
