@@ -20,7 +20,7 @@ class MyStack
                 {
                     if (str != search)
                         numToDelete++;
-                    
+                        
                     if (str == search)
                     {
                         numToDelete++;
@@ -31,14 +31,14 @@ class MyStack
                 for (int i = 0; i < numToDelete; i++)
                     aStack.Pop();
             }
-
-            aStack.Push(newItem);
         }
 
         else
         {
             Console.WriteLine("Stack is empty");
         }
+
+        aStack.Push(newItem);
 
         return aStack;
     }
