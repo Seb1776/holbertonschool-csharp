@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>3-enemy</name>
+    </assembly>
+    <members>
+        <member name="T:Enemies.Zombie">
+            <summary>Zombie class</summary>
+        </member>
+        <member name="F:Enemies.Zombie.health">
+            <summary>Zombie health value</summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor">
+            <summary>Zombie constructor method</summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor(System.Int32)">
+            <summary>Initializes "value" and throws an exception if its below 0</summary>
+        </member>
+        <member name="M:Enemies.Zombie.GetHealth">
+            <summary>Returns the current Zombie "health" value</summary>
+        </member>
+    </members>
+</doc>
