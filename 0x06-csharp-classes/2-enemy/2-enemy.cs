@@ -15,7 +15,7 @@ namespace Enemies
         }
 
         ///<summary>Initializes "value" and throws an exception if its below 0</summary>
-            ///<param name="value">Value that will have the health</param>
+        ///<param name="value">Value that will have the health</param>
         public Zombie(int value)
         {
             if (value <= 0)
