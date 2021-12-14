@@ -18,7 +18,7 @@ namespace Enemies
         ///<param name="value">Value that will have the health</param>
         public Zombie(int value)
         {
-            if (value <= 0)
+            if (value < 0)
                 throw new ArgumentException("Health must be greater than or equal to 0");
             
             else
