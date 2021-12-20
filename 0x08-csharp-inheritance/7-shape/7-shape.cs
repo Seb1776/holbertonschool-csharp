@@ -49,6 +49,6 @@ public class Rectangle : Shape
     ///<summary>Override of ToString()</summary>
     public override string ToString()
     {
-        return string.Format("[Rectangle] {0} / {1}", height, width);
+        return string.Format("[Rectangle] {0} / {1}", width, height);
     }
 }
