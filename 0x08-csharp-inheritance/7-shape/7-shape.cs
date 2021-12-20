@@ -4,7 +4,6 @@
 public class Shape
 {
     ///<summary>Method that throws a new exception</summary>
-        ///<returns>Nothing</returns>
     public virtual int Area()
     {
         throw new NotImplementedException("Area() is not implemented");
@@ -48,6 +47,7 @@ public class Rectangle : Shape
     }
 
     ///<summary>Override of ToString()</summary>
+        ///<returns>String interpretation</returns>
     public override string ToString()
     {
         return string.Format("[Rectangle] {0} / {1}", width, height);
