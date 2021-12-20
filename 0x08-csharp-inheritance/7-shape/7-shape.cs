@@ -50,6 +50,6 @@ public class Rectangle : Shape
         ///<returns>String interpretation</returns>
     public override string ToString()
     {
-        return string.Format("[Rectangle] {0} / {1}", width, height);
+        return "[Rectangle] " + width + " / " + height;
     }
 }
