@@ -45,7 +45,7 @@ public class Rectangle : Shape
     }
 }
 
-public class Square : Shape
+public class Square : Rectangle
 {
     int size;
 
@@ -56,7 +56,7 @@ public class Square : Shape
         set 
         { 
             if (value < 0) throw new ArgumentException("Size must be greater than or equal to 0");
-            else size = value;
+            else size = Width = Height = value;
         }
     }
 }
