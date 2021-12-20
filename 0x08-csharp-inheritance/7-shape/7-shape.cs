@@ -1,55 +1,67 @@
 ﻿using System;
 
-///<summary>Shape class</summary>
-public class Shape
+class Shape
 {
-    ///<summary>Method that throws a new exception</summary>
+    /// <summary>
+    /// Shape Area
+    /// </summary>
     public virtual int Area()
     {
-        throw new NotImplementedException("Area() is not implemented");
+        string msg = "Area() is not implemented";
+        throw new NotImplementedException(msg);
     }
 }
 
-///<summary>Rectangle class, inherits from Shape</summary>
-public class Rectangle : Shape
+class Rectangle : Shape
 {
-    int width, height;
-
-    ///<summary>Width constructor</summary>
+    /// <summary>
+    /// retangle shape
+    /// </summary>
+    private int width;
     public int Width
     {
-        get { return width; }
-
-        set 
-        { 
-            if (value < 0) throw new ArgumentException("Width must be greater than or equal to 0");
-            else width = value;
+        get
+        {
+            return (width);
+        }
+        set
+        {
+            if (value < 0)
+            {
+                throw new ArgumentException("Width must be greater than or equal to 0");
+            }
+            else
+            {
+                width = value;
+            }
         }
     }
-
-    ///<summary>Height constructor</summary>
+    private int height;
     public int Height
     {
-        get { return height; }
-
-        set 
+        get
         {
-            if (value < 0) throw new ArgumentException("Height must be greater than or equal to 0");
-            else height = value;
+            return (height);
+        }
+        set
+        {
+            if (value < 0)
+            {
+                throw new ArgumentException("Height must be greater than or equal to 0");
+            }
+            else
+            {
+                height = value;
+            }
         }
     }
-
-    ///<summary>Method that calculates the rectangle's area</summary>
-        ///<returns>Rectangle's area</returns>
     public new int Area()
     {
-        return width * height;
+        return (height * width);
     }
-
-    ///<summary>Override of ToString()</summary>
-        ///<returns>String interpretation</returns>
     public override string ToString()
     {
-        return "[Rectangle] " + width + " / " + height;
+        string str = "[Rectangle] " + width + " / " + height;
+        return (str);    
     }
 }
