@@ -5,12 +5,11 @@ class List
 {
     public static List<int> CommonElements(List<int> list1, List<int> list2)
     {
-        List<int> newList = new List<int>();
+        HashSet<int> hash1 = new HashSet<int>(list1);
+        HashSet<int> hash2 = new HashSet<int>(list2);
+        hash1.IntersectWith(hash2);
+        List<int> retList = new List<int>(hash1);
 
-        for (int i = 0; i < list1.Count; i++)
-            if (list2.Contains(list1[i]))
-                newList.Add(list1[i]);
-        
-        return newList;
+        return retList;
     }
 }
