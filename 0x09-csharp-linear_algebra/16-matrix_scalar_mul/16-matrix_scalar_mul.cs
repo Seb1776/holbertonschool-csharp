@@ -5,35 +5,19 @@ class MatrixMath
 {
     public static double[,] MultiplyScalar(double[,] matrix, double scalar)
     {
-        if (matrix.GetLength(0) == 2 && matrix.GetLength(1) == 2)
-        {
-            double[,] newMatrix = new double[2, 2];
+        if (matrix == null)
+            return (new double[,] {{-1}});
 
-            for (int i = 0; i < 2; i++)
-            {
-                for (int j = 0; j < 2; j++)
-                {
-                    newMatrix[i, j] = matrix[i, j] * scalar;
-                }
-            }
-            return (newMatrix);
-        }
+        if (matrix.GetLength(0) != matrix.GetLength(1))
+            return (new double[,] {{-1}});
 
-        else if (matrix.GetLength(0) == 3 && matrix.GetLength(1) == 3)
-        {
-            double[,] newMatrix = new double[3, 3];
+        if (matrix.GetLength(0) < 2 || matrix.GetLength(0) > 3)
+            return (new double[,] {{-1}});
 
-            for (int i = 0; i < 3; i++)
-                for (int j = 0; j < 3; j++)
-                    newMatrix[i, j] = matrix[i, j] * scalar;
+        for (int i = 0; i < matrix.GetLength(0); i++)
+            for (int j = 0; j < matrix.GetLength(1); j++)
+                matrix[i, j] *= scalar;
 
-            return (newMatrix);
-        }
-
-        else
-        {
-            double[,] newMatrix = new double[,] {{-1}};
-            return (newMatrix);
-        }
+        return matrix;
     }
 }
