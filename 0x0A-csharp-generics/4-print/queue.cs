@@ -60,6 +60,7 @@ class Queue<T>
         return default(T);
     }
 
+    ///<summary>Prints all the queue contents</summary>
     public void Print()
     {   
         if (count > 0)
