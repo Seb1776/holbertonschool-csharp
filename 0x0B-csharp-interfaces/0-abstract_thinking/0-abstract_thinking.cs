@@ -9,7 +9,7 @@ public abstract class Base
     ///<summary>Override of ToString method</summary>
     public override string ToString()
     {
-        string _ret = name + " is " + GetType();
+        string _ret = name + " is " + GetType().ToString();
         return _ret;
     }
 }
