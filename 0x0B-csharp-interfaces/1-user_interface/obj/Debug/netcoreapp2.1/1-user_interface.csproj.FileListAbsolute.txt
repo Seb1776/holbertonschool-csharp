@@ -1,0 +1,13 @@
+D:\GithubRepos\holbertonschool-csharp\0x0B-csharp-interfaces\1-user_interface\obj\Debug\netcoreapp2.1\1-user_interface.csprojAssemblyReference.cache
+D:\GithubRepos\holbertonschool-csharp\0x0B-csharp-interfaces\1-user_interface\obj\Debug\netcoreapp2.1\1-user_interface.csproj.CoreCompileInputs.cache
+D:\GithubRepos\holbertonschool-csharp\0x0B-csharp-interfaces\1-user_interface\obj\Debug\netcoreapp2.1\1-user_interface.AssemblyInfoInputs.cache
+D:\GithubRepos\holbertonschool-csharp\0x0B-csharp-interfaces\1-user_interface\obj\Debug\netcoreapp2.1\1-user_interface.AssemblyInfo.cs
+D:\GithubRepos\holbertonschool-csharp\0x0B-csharp-interfaces\1-user_interface\bin\Debug\netcoreapp2.1\1-user_interface.deps.json
+D:\GithubRepos\holbertonschool-csharp\0x0B-csharp-interfaces\1-user_interface\bin\Debug\netcoreapp2.1\1-user_interface.runtimeconfig.json
+D:\GithubRepos\holbertonschool-csharp\0x0B-csharp-interfaces\1-user_interface\bin\Debug\netcoreapp2.1\1-user_interface.runtimeconfig.dev.json
+D:\GithubRepos\holbertonschool-csharp\0x0B-csharp-interfaces\1-user_interface\bin\Debug\netcoreapp2.1\1-user_interface.dll
+D:\GithubRepos\holbertonschool-csharp\0x0B-csharp-interfaces\1-user_interface\bin\Debug\netcoreapp2.1\1-user_interface.pdb
+D:\GithubRepos\holbertonschool-csharp\0x0B-csharp-interfaces\1-user_interface\bin\Debug\netcoreapp2.1\1-user_interface.xml
+D:\GithubRepos\holbertonschool-csharp\0x0B-csharp-interfaces\1-user_interface\obj\Debug\netcoreapp2.1\1-user_interface.dll
+D:\GithubRepos\holbertonschool-csharp\0x0B-csharp-interfaces\1-user_interface\obj\Debug\netcoreapp2.1\1-user_interface.xml
+D:\GithubRepos\holbertonschool-csharp\0x0B-csharp-interfaces\1-user_interface\obj\Debug\netcoreapp2.1\1-user_interface.pdb
