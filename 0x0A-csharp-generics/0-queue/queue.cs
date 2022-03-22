@@ -4,7 +4,7 @@
 class Queue<T>
 {
     ///<summary>Returns the passed generic type</summary>
-        ///<returns>The string of the generic type</returns>
+        ///<return>The string of the generic type</return>
     public Type CheckType()
     {
         return typeof(T);
