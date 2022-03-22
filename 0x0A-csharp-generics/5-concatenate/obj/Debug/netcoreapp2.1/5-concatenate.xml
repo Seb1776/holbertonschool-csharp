@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>5-concatenate</name>
+    </assembly>
+    <members>
+        <member name="T:Queue`1">
+            <summary>Generic Queue class</summary>
+        </member>
+        <member name="M:Queue`1.CheckType">
+            <summary>Returns the passed generic type</summary>
+            <return>The string of the generic type</return>
+        </member>
+        <member name="M:Queue`1.Enqueue(`0)">
+            <summary>Adds a new node to the queue</summary>
+        </member>
+        <member name="M:Queue`1.Dequeue">
+            <summary>Removes and shows the first node in the queue</summary>
+            <return>Returns the first value in the queue</return>
+        </member>
+        <member name="M:Queue`1.Peek">
+            <summary>Shows the first node in the queue without removing it</summary>
+            <return>Returns the first value in the queue</return>
+        </member>
+        <member name="M:Queue`1.Print">
+            <summary>Prints all the queue contents</summary>
+        </member>
+        <member name="M:Queue`1.Concatenate">
+            <summary>Prints and concatenates all queue contents if they're string or char</summary>
+        </member>
+        <member name="M:Queue`1.Count">
+            <summary>Count method</summary>
+            <return>Returns how many nodes the queue has</return>
+        </member>
+        <member name="T:Queue`1.Node">
+            <summary>Node class</summary>
+        </member>
+        <member name="M:Queue`1.Node.#ctor(`0)">
+            <summary>Node constructor</summary>
+        </member>
+    </members>
+</doc>
