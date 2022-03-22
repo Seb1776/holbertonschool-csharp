@@ -1,7 +1,7 @@
 ﻿using System;
 
 ///<summary>Base class</summary>
-public abstract class Base
+abstract class Base
 {
     ///<summary>name property</summary>
     public string name;
@@ -9,14 +9,13 @@ public abstract class Base
     ///<summary>Override of ToString method</summary>
     public override string ToString()
     {
-        string _ret = name + " is a " + GetType();
+        string _ret = this.name + " is a " + this.GetType();
         return _ret;
-  
     }
 }
 
 ///<summary>TestObject class</summary>
-public class Door : Base, IInteractive
+class Door : Base, IInteractive
 {
     ///<summary>Door constructor</summary>
     public Door(string name)
