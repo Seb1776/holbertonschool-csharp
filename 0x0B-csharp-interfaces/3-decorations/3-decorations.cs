@@ -1,114 +1,108 @@
 ﻿using System;
 
-/// Base class
-public abstract class Base
+///<summary>Base class</summary>
+abstract class Base
 {
-    /// The name
-    public string name;
+  public string name = "";
 
-    /// ToString override
-    public override string ToString()
-    {
-        return ($"{name} is a {this.GetType()}");
-    }
+	public override string ToString()
+	{
+		return (this.name + " is a " + this.GetType().ToString());
+	}
 }
 
-/// Interactive
+/// <summary> Interactive interface </summary>
 interface IInteractive
 {
-    /// Test func
     void Interact();
 }
 
-/// Ibreakble
+/// <summary> Breakable Interface </summary>
 interface IBreakable
 {
-    /// Test var
-    int durability
-    {
-        get;
-        set;
-    }
-
-    /// Test func
+    int durability { get; set; }
     void Break();
 }
 
-/// collectable
+/// <summary> Collectable Interface </summary>
 interface ICollectable
 {
-    /// Test var
-    bool isCollected
-    {
-        get;
-        set;
-    }
-
-    /// test func
+    bool isCollected { get; set; }
     void Collect();
+
 }
 
-/// Door class
-public class Door : Base, IInteractive
+/// <summary> Class that inherits from Base class and IInterective </summary>
+class Door : Base, IInteractive
 {
-    /// Constructer
-    public Door(string name = "Door")
-    {
-        this.name = name;
-    }
 
-    /// interaction
-    public void Interact()
-    {
-        Console.WriteLine("You try to open the " + this.name + ". It's locked.");
-    }
+    public Door(string n = "Door")
+	{
+		name = n;
+	}
+
+    /// <summary> Takes place when the object interacts with something </summary>
+	public void Interact()
+	{
+        	Console.WriteLine("You try to open the {0}. It's locked.", name);
+	}
+
+  
 }
 
-/// A decoration object
-public class Decoration : Base, IInteractive, IBreakable
-{
-    /// durability of decoration object
-    public int durability
-    {
-        get;
-        set;
-    }
 
-    /// Is quest item?
+/// <summary> Class that inherits from Base class and IInterective </summary>
+class Decoration : Base, IInteractive, IBreakable
+{
     public bool isQuestItem;
+    public int durability { get; set; }
 
-    /// Constructor
     public Decoration(string name = "Decoration", int durability = 1, bool isQuestItem = false)
-    {
-        if (durability < 1)
-            throw new Exception("Durability must be greater than 0");
+	{
+        if (durability < 0)
+		{
+			throw new Exception("Durability must be greater than 0");
+		}
+		this.name = name;
+		this.durability = durability;
+		this.isQuestItem = isQuestItem;
+	}
 
-        this.name = name;
-        this.durability = durability;
-        this.isQuestItem = isQuestItem;
-    }
-
-    /// Interact with decorations
-    public void Interact()
-    {
-        if (durability < 1)
-            Console.WriteLine("The " + name + " has been broken.");
-        else if (isQuestItem)
-            Console.WriteLine("You look at the " + name + ". There's a key inside.");
+    /// <summary> Takes place when the object interacts with something </summary>
+	public void Interact()
+	{
+         if (durability <= 0)
+		{
+			Console.WriteLine("The {0} has been broken.", name);
+		}
+         else if (isQuestItem)
+		{
+			Console.WriteLine("You look at the {0}. There's a key inside.", name);
+		}
         else
-            Console.WriteLine("You look at the " + name + ". Not much to see here.");
-    }
+		{
+			Console.WriteLine("You look at the {0}. Not much to see here.", name);
+		}   	
+	}
 
-    /// Break the decoration
+    /// <summary>check if the object has been broken</summary>
     public void Break()
-    {
-        durability -= 1;
+	{
+        durability--;
 
-        if (durability > 0)
-            Console.WriteLine("You hit the " + name + ". It cracks.");
-        else if (durability == 0)
-            Console.WriteLine("You smash the " + name + ". What a mess.");
-        else
-            Console.WriteLine("The " + name + " is already broken.");
-    }
+         if (durability > 0)
+		{
+			Console.WriteLine("You hit the {0}. It cracks.", name);
+		}
+         if (durability == 0)
+		{
+			Console.WriteLine("You smash the {0}. What a mess.", name);
+		}
+        if (durability < 0)
+		{
+			Console.WriteLine("The {0} is already broken.", name);
+		}   	
+	}
+
+  
 }

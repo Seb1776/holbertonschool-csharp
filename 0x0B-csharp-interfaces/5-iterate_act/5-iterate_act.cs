@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Reflection;
+
 
 ///<summary>Base class</summary>
 abstract class Base
@@ -36,9 +39,9 @@ interface ICollectable
 class Door : Base, IInteractive
 {
 
-    public Door(string n = "Door")
+    public Door(string name = "Door")
 	{
-		name = n;
+		this.name = name;
 	}
 
     /// <summary> Takes place when the object interacts with something </summary>
@@ -128,9 +131,31 @@ class Key : Base, ICollectable
         {
         	Console.WriteLine("You have already picked up the {0}.", name);
         }
-
 	}
-
-  
 }
 
+/// <summary> Public class RoomObjects </summary>
+class RoomObjects
+{
+    /// <summary> Function to check a list of items in a room a proceed acording to its type </summary>
+	public static void IterateAction(List<Base> roomObjects, Type type)
+	{
+		foreach (Base item in roomObjects)
+		{
+
+
+			if (type == typeof(IInteractive) && item is IInteractive)
+			{
+				((IInteractive)item).Interact();
+			}
+			else if (type == typeof(IBreakable) && item is IBreakable)
+			{
+				((IBreakable)item).Break();
+			}
+			else if (type == typeof(ICollectable) && item is ICollectable)
+			{
+				((ICollectable)item).Collect();
+			}
+		}
+	}
+}

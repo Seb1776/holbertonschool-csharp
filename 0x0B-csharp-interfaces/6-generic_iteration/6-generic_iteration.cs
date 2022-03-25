@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+
 
 ///<summary>Base class</summary>
 abstract class Base
@@ -36,9 +39,9 @@ interface ICollectable
 class Door : Base, IInteractive
 {
 
-    public Door(string n = "Door")
+    public Door(string name = "Door")
 	{
-		name = n;
+		this.name = name;
 	}
 
     /// <summary> Takes place when the object interacts with something </summary>
@@ -128,9 +131,29 @@ class Key : Base, ICollectable
         {
         	Console.WriteLine("You have already picked up the {0}.", name);
         }
-
 	}
-
-  
 }
 
+
+class Objs<T> : IEnumerable<T>
+{
+	List<T> lista = new List<T>();
+
+   /// <summary> + an object to the list </summary>
+    public void Add(T obj)
+    {
+        lista.Add(obj);
+    }
+	
+    /// <summary> Returns list </summary>
+    public IEnumerator<T> GetEnumerator()
+    {
+        return (lista.GetEnumerator());
+    }
+    /// <summary> private </summary>
+    IEnumerator IEnumerable.GetEnumerator()
+    {
+        return (GetEnumerator());
+    }
+
+}

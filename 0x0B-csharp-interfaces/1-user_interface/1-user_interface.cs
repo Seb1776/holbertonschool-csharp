@@ -1,86 +1,58 @@
 ﻿using System;
 
-/// Base class
-public abstract class Base
+///<summary>Base class</summary>
+abstract class Base
 {
-    /// The name
-    string name
-    {
-        set;
-        get;
-    }
+  public string name = "";
 
-    /// ToString override
-    public override string ToString()
-    {
-        return ($"{name} is a {this.GetType()}");
-    }
+	public override string ToString()
+	{
+		return (this.name + " is a " + this.GetType().ToString());
+	}
 }
 
-/// Interactive
+/// <summary> Interactive interface </summary>
 interface IInteractive
 {
-    /// Test func
     void Interact();
 }
 
-/// Ibreakble
+/// <summary> Breakable Interface </summary>
 interface IBreakable
 {
-    /// Test var
-    int durability
-    {
-        get;
-        set;
-    }
-
-    /// Test func
+    int durability { get; set; }
     void Break();
 }
 
-/// collectable
+/// <summary> Collectable Interface </summary>
 interface ICollectable
 {
-    /// Test var
-    bool isCollected
-    {
-        get;
-        set;
-    }
-
-    /// test func
+    bool isCollected { get; set; }
     void Collect();
+
 }
 
-/// implements things
-public class TestObject : Base, IInteractive, IBreakable, ICollectable
+/// <summary> Class that inherits from Base class and all interfaces </summary>
+class TestObject : Base, IInteractive, IBreakable, ICollectable
 {
-    /// Test var
-    public void Interact() {}
-    /// Test var
-    public void Break() {}
-    /// Test var
-    public void Collect() {}
+	public int durability { get; set; }
+	public bool isCollected { get; set; }
 
-    
-    /// Test func
-    public int durability
-    {
-        get;
-        set;
-    }
+    /// <summary> Takes place when the object interacts with something </summary>
+	public void Interact()
+	{
 
-    /// Test func
-    public bool isCollected
-    {
-        get;
-        set;
-    }
+	}
 
-    /// test name
-    public string name
-    {
-        get;
-        set;
-    }
+    /// <summary> Takes place when the object brakes. </summary>
+	public void Break()
+	{
+
+	}
+
+    /// <summary> Takes place when the object collects something.</summary>
+	public void Collect()
+	{
+
+	}
 }

@@ -1,65 +1,51 @@
 ﻿using System;
 
-/// Base class
-public abstract class Base
+///<summary>Base class</summary>
+abstract class Base
 {
-    /// The name
-    public string name;
+  public string name = "";
 
-    /// ToString override
-    public override string ToString()
-    {
-        return ($"{name} is a {this.GetType()}");
-    }
+	public override string ToString()
+	{
+		return (this.name + " is a " + this.GetType().ToString());
+	}
 }
 
-/// Interactive
+/// <summary> Interactive interface </summary>
 interface IInteractive
 {
-    /// Test func
     void Interact();
 }
 
-/// Ibreakble
+/// <summary> Breakable Interface </summary>
 interface IBreakable
 {
-    /// Test var
-    int durability
-    {
-        get;
-        set;
-    }
-
-    /// Test func
+    int durability { get; set; }
     void Break();
 }
 
-/// collectable
+/// <summary> Collectable Interface </summary>
 interface ICollectable
 {
-    /// Test var
-    bool isCollected
-    {
-        get;
-        set;
-    }
-
-    /// test func
+    bool isCollected { get; set; }
     void Collect();
+
 }
 
-/// Door class
-public class Door : Base, IInteractive
+/// <summary> Class that inherits from Base class and all interfaces </summary>
+class Door : Base, IInteractive
 {
-    /// Constructer
-    public Door(string name = "Door")
-    {
-        this.name = name;
-    }
 
-    /// interaction
-    public void Interact()
-    {
-        Console.WriteLine("You try to open the " + this.name + ". It's locked.");
-    }
+    public Door(string n = "Door")
+	{
+		name = n;
+	}
+
+    /// <summary> Takes place when the object interacts with something </summary>
+	public void Interact()
+	{
+        	Console.WriteLine("You try to open the {0}. It's locked.", name);
+	}
+
+  
 }
