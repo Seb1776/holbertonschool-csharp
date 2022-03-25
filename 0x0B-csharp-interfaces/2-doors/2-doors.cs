@@ -1,57 +1,65 @@
 ﻿using System;
 
-///<summary>Base class</summary>
-abstract class Base
+/// Base class
+public abstract class Base
 {
-    ///<summary>name property</summary>
+    /// The name
     public string name;
 
-    ///<summary>Override of ToString method</summary>
+    /// ToString override
     public override string ToString()
     {
-        string _ret = this.name + " is a " + this.GetType();
-        return _ret;
+        return ($"{name} is a {this.GetType()}");
     }
 }
 
-///<summary>TestObject class</summary>
-class Door : Base, IInteractive
-{
-    ///<summary>Door constructor</summary>
-    public Door(string name)
-    {
-        if (name == string.Empty)
-            this.name = "Door";
-        
-        else
-            this.name = name;
-    }
-
-    ///<summary>Interact method</summary>
-    public void Interact()
-    {
-        Console.WriteLine("You try to open the " + name + ". It's locked.");
-    }
-}
-
-///<summary>Interactive interface</summary>
+/// Interactive
 interface IInteractive
 {
+    /// Test func
     void Interact();
 }
 
-///<summary>Breakable interface</summary>
+/// Ibreakble
 interface IBreakable
 {
-    int durability {get; set;}
+    /// Test var
+    int durability
+    {
+        get;
+        set;
+    }
 
+    /// Test func
     void Break();
 }
 
-///<summary>Collectable interface</summary>
+/// collectable
 interface ICollectable
 {
-    bool isCollectable {get; set;}
+    /// Test var
+    bool isCollected
+    {
+        get;
+        set;
+    }
 
+    /// test func
     void Collect();
+}
+
+/// Door class
+public class Door : Base, IInteractive
+{
+    /// Constructer
+    public Door(string name = "Door")
+    {
+        this.name = name;
+    }
+
+    /// interaction
+    public void Interact()
+    {
+        Console.WriteLine("You try to open the " + this.name + ". It's locked.");
+    }
 }
